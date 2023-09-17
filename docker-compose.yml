@@ -7,7 +7,3 @@ services:
     environment:
       - TUNNEL_TOKEN=${TOKEN}
     command: tunnel run 
-networks:
-  default:
-    external: 
-      name: cloudflare
