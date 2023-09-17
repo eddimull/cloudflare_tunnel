@@ -9,5 +9,5 @@ services:
     command: tunnel run 
 networks:
   default:
-    name: cloudflare
-    external: true
+    external: 
+      name: cloudflare
